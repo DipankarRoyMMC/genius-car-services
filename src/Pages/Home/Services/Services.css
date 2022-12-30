@@ -1,0 +1,32 @@
+.services-container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media (max-width: 600px){
+    .service-container{
+        max-width: 100%;
+        margin: 0  20px;
+    }
+    .services{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin: 0 20px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .service-container{
+        max-width: 100%;
+        margin: 0 20px;
+    }
+    .services{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px;
+    }
+} 
