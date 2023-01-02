@@ -1,15 +1,16 @@
 .regsiter-form{
-    width: 50%;
+    width: 30%;
     margin: 20px auto 0;
 
 }
-.regsiter-form input{
+.regsiter-form input:not([type=checkbox]){
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid lightgray;
     padding: 15px;
-    height: 50px;
+    height: 40px;
     margin-bottom: 15px;
     border-radius: 4px;
+    outline: none;
 }
 .register-title{
     text-align: center;
